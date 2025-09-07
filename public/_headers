@@ -2,6 +2,6 @@
   Content-Type: application/javascript
   Access-Control-Allow-Origin: *
 
-/assets/__federation_expose_MusicLibrary-CZNQ7QYN.js
+/assets/__federation_expose_MusicLibrary-*.js
   Content-Type: application/javascript
   Access-Control-Allow-Origin: *
