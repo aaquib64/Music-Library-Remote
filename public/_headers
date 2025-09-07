@@ -1,3 +1,7 @@
-/assets/*.js
+/assets/remoteEntry.js
+  Content-Type: application/javascript
+  Access-Control-Allow-Origin: *
+
+/assets/__federation_expose_MusicLibrary-CZNQ7QYN.js
   Content-Type: application/javascript
   Access-Control-Allow-Origin: *
