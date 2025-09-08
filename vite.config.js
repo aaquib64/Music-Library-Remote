@@ -1,8 +1,3 @@
-
-
-
-
-
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import federation from "@originjs/vite-plugin-federation";
@@ -26,6 +21,9 @@ export default defineConfig({
     rollupOptions: {
       output: {
         format: "esm",
+        entryFileNames: `assets/[name].js`,
+        chunkFileNames: `assets/[name].js`,
+        assetFileNames: `assets/[name].[ext]`,
       },
     },
   },
